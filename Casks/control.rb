@@ -3,7 +3,7 @@ cask "control" do
   name "control"
   desc "Generate SVG diagrams from plain text"
   homepage "https://github.com/StephanSchmidt/control"
-  version "0.2.0"
+  version "0.3.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "control" do
   on_macos do
     on_intel do
       url "https://github.com/StephanSchmidt/control/releases/download/v#{version}/control_#{version}_darwin_amd64.tar.gz"
-      sha256 "c55eff15760082f9f38637acc0c4daa5aed731f4fe2bd0c6c5bab6e1806615e7"
+      sha256 "658959f78f92ca328fe3926aa8a82b1e3cceb9fef87960067a32493e99ece1a6"
     end
     on_arm do
       url "https://github.com/StephanSchmidt/control/releases/download/v#{version}/control_#{version}_darwin_arm64.tar.gz"
-      sha256 "e547a445a39e2f5040e27f9bcaf12711a88622955198aa08931dd54f1fc9534c"
+      sha256 "6959fd1934e446119fc418b6e8434b574dac46124071db6b806f25c719167510"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/StephanSchmidt/control/releases/download/v#{version}/control_#{version}_linux_amd64.tar.gz"
-      sha256 "2f9611d248ea16954e6e61206ed54fab7983861ce3d2f2834353d4c9d6ff055e"
+      sha256 "5ae8fa34cc6e518b54f4ff9f981d5f2543d50a8092dcd25334225a886dd83754"
     end
     on_arm do
       url "https://github.com/StephanSchmidt/control/releases/download/v#{version}/control_#{version}_linux_arm64.tar.gz"
-      sha256 "697ac24adbbf0f8e4b43189ae249aa10bd2e6964a0b95801e6e2e8a9d0970d89"
+      sha256 "9bd4e218a7c2dd3ba7e2ef25ed533278571c7c781f988a8c5cc71451df259187"
     end
   end
 

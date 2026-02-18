@@ -14,22 +14,22 @@ cask "control" do
   on_macos do
     on_intel do
       url "https://github.com/StephanSchmidt/control/releases/download/v#{version}/control_#{version}_darwin_amd64.tar.gz"
-      sha256 "658959f78f92ca328fe3926aa8a82b1e3cceb9fef87960067a32493e99ece1a6"
+      sha256 "85cad1d7a366eaf4d7481afd6d0873bb646e1e656717262745dcbfa9180f465f"
     end
     on_arm do
       url "https://github.com/StephanSchmidt/control/releases/download/v#{version}/control_#{version}_darwin_arm64.tar.gz"
-      sha256 "6959fd1934e446119fc418b6e8434b574dac46124071db6b806f25c719167510"
+      sha256 "5762e87b73ebb9bb913088c37a9ab763f17a46a460bce4e9e3d0e46237fadc9f"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/StephanSchmidt/control/releases/download/v#{version}/control_#{version}_linux_amd64.tar.gz"
-      sha256 "5ae8fa34cc6e518b54f4ff9f981d5f2543d50a8092dcd25334225a886dd83754"
+      sha256 "bc0fecc8cfbd21acc2d1da85ddd8bf18a277719293b4e27a23800f5f76e9cb78"
     end
     on_arm do
       url "https://github.com/StephanSchmidt/control/releases/download/v#{version}/control_#{version}_linux_arm64.tar.gz"
-      sha256 "9bd4e218a7c2dd3ba7e2ef25ed533278571c7c781f988a8c5cc71451df259187"
+      sha256 "d0259b8d95ab23b6068503cf42e1d9948a83af1fb0541c0c5a0911231126f943"
     end
   end
 
